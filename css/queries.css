@@ -1,0 +1,89 @@
+/**************************/
+/* BELOW 1200px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 75em) {
+  .card {
+    width: 30%;
+  }
+}
+
+/**************************/
+/* BELOW 1050px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 66em) {
+  .card {
+    width: 35%;
+  }
+}
+
+/**************************/
+/* BELOW 980px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 62em) {
+  .card {
+    width: 40%;
+  }
+}
+
+/**************************/
+/* BELOW 875px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 55em) {
+  .card {
+    width: 45%;
+  }
+}
+
+/**************************/
+/* BELOW 715px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 45em) {
+  .card {
+    width: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 620px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 39em) {
+  .card {
+    width: 62%;
+  }
+}
+
+/**************************/
+/* BELOW 530px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 33em) {
+  .card {
+    width: 74%;
+  }
+}
+
+/**************************/
+/* BELOW 430px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 27em) {
+  .card {
+    width: 85%;
+  }
+}
+
+/**************************/
+/* BELOW 370px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 23em) {
+  .card {
+    width: 95%;
+  }
+}
