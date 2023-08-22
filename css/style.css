@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.8rem;
+  color: var(--Very-dark-desaturated-blue);
+  font-weight: 400;
+}
+
+:root {
+  /* primary */
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+
+  /* Neutral */
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+
+.container {
+  background-color: var(--Dark-cyan);
+  width: 100%;
+  overflow: none;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  width: 26%;
+  height: 60%;
+  border-radius: 2rem;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card-bg {
+  width: 100%;
+}
+
+.top {
+  position: relative;
+  height: 40%;
+}
+
+.profile-image {
+  position: absolute;
+  bottom: -4rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border: 4px solid #fff;
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+
+.center {
+  height: 38%;
+  padding-top: 7rem;
+  text-align: center;
+  /* padding: 4rem; */
+  border-bottom: 1px solid var(--Dark-grayish-blue);
+}
+.name {
+  font-size: 2rem;
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 1rem;
+}
+
+.number {
+  font-weight: 400;
+  font-size: 2.1rem;
+}
+.number,
+.city,
+.span {
+  color: var(--Dark-grayish-blue);
+}
+.city {
+  font-size: 1.5rem;
+}
+.span {
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+}
+
+.bottom {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.center,
+.followers,
+.likes,
+.photos {
+  text-align: center;
+}
+
+.circle-1,
+.circle-2 {
+  width: 80rem;
+  height: 80rem;
+  border-radius: 50%;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
+
+.circle-1 {
+  position: absolute;
+  top: -50%;
+  left: -10%;
+}
+
+.circle-2 {
+  position: absolute;
+  bottom: -50%;
+  right: -10%;
+}
