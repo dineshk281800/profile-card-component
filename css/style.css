@@ -34,12 +34,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
+  background-position: right 48vw bottom 40vh, left 45vw top 53vh;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .card {
   background-color: #fff;
+  min-width: 26%;
   width: 26%;
-  height: 60%;
   border-radius: 2rem;
   overflow: hidden;
 
@@ -60,11 +64,10 @@ body {
 
 .profile-image {
   position: absolute;
-  bottom: -5rem;
+  bottom: -4.5rem;
   left: 50%;
   transform: translateX(-50%);
-
-  border: 4px solid #fff;
+  border: 5px solid #fff;
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
@@ -72,10 +75,8 @@ body {
 
 .center {
   height: 38%;
-  padding-top: 7rem;
+  padding-top: 6.5rem;
   text-align: center;
-  /* padding: 4rem; */
-  /* border-bottom: 1px solid var(--Dark-grayish-blue); */
 }
 .name {
   font-size: 2rem;
@@ -86,7 +87,7 @@ body {
 
 .number {
   font-weight: 400;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
 }
 .number,
 .city,
@@ -95,6 +96,7 @@ body {
 }
 .city {
   font-size: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 .span {
   font-size: 1.1rem;
@@ -105,6 +107,7 @@ body {
   display: flex;
   padding: 2rem;
   justify-content: space-around;
+  border-top: 1px solid #bdbdbd;
 }
 
 .center,
@@ -112,31 +115,4 @@ body {
 .likes,
 .photos {
   text-align: center;
-}
-
-.circle-1,
-.circle-2 {
-  width: 80rem;
-  height: 80rem;
-  /* border-radius: 50%;
-  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
-  background-image: linear-gradient(to right bottom, #5de1eb, #1ca5b4);
-  background-image: linear-gradient(to right bottom, #2cdce9, #1ca5b4); */
-}
-
-.circle-1 {
-  position: absolute;
-
-  top: -63%;
-  left: -30%;
-  z-index: 2;
-  /* background-position: left 45vw top 53vw; */
-}
-
-.circle-2 {
-  position: absolute;
-  bottom: -73%;
-  right: -10%;
-  z-index: 2;
-  /* background-position: right 48vw bottom 40vh; */
 }

@@ -1,5 +1,5 @@
 /**************************/
-/* BELOW 1200px (Smaller desktops) */
+/* BELOW 1200px */
 /**************************/
 
 @media (max-width: 75em) {
@@ -9,7 +9,7 @@
 }
 
 /**************************/
-/* BELOW 1050px (Smaller desktops) */
+/* BELOW 1050px */
 /**************************/
 
 @media (max-width: 66em) {
@@ -19,7 +19,7 @@
 }
 
 /**************************/
-/* BELOW 980px (Smaller desktops) */
+/* BELOW 980px */
 /**************************/
 
 @media (max-width: 62em) {
@@ -29,7 +29,7 @@
 }
 
 /**************************/
-/* BELOW 875px (Smaller desktops) */
+/* BELOW 875px */
 /**************************/
 
 @media (max-width: 55em) {
@@ -39,7 +39,7 @@
 }
 
 /**************************/
-/* BELOW 715px (Smaller desktops) */
+/* BELOW 715px */
 /**************************/
 
 @media (max-width: 45em) {
@@ -49,7 +49,7 @@
 }
 
 /**************************/
-/* BELOW 620px (Smaller desktops) */
+/* BELOW 620px */
 /**************************/
 
 @media (max-width: 39em) {
@@ -59,7 +59,7 @@
 }
 
 /**************************/
-/* BELOW 530px (Smaller desktops) */
+/* BELOW 530px */
 /**************************/
 
 @media (max-width: 33em) {
@@ -69,17 +69,20 @@
 }
 
 /**************************/
-/* BELOW 430px (Smaller desktops) */
+/* BELOW 430px */
 /**************************/
 
 @media (max-width: 27em) {
+  .container {
+    background-position: right 48vw bottom 40vh, left 20vw top 53vh;
+  }
   .card {
     width: 85%;
   }
 }
 
 /**************************/
-/* BELOW 370px (Smaller desktops) */
+/* BELOW 370px */
 /**************************/
 
 @media (max-width: 23em) {
